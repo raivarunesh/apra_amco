@@ -19,8 +19,8 @@ spec:
         app: valaxy-devops-project
     spec:
       containers:
-      - name: valaxy-devops-project
-        image: yankils/simple-devops-image
-        imagePullPolicy: Always
-        ports:
-        - containerPort: 8080
+        - name: valaxy-devops-project
+          image: varuneshrai2019/simple-devops-image
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
